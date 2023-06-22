@@ -1,0 +1,17 @@
+import javax.swing.JOptionPane;
+
+public class VaultCombination {
+    public static void main(String[] args) {
+        // Display initial message to the user
+        JOptionPane.showMessageDialog(null, "You have received this message because you have been chosen to open an important vault. Here is the secret combination:");
+
+        // Generate three codes for the vault combination
+        int code1 = 5 + 5;       // Addition operator
+        int code2 = 80 - 40;     // Subtraction operator
+        int code3 = 40 * 1 - 1;  // Multiplication and subtraction operators
+
+        // Display the vault combination using a dialog box
+        String combination = code1 + " - " + code2 + " - " + code3;
+        JOptionPane.showMessageDialog(null, "Vault Combination: " + combination);
+    }
+}

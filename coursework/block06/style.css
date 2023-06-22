@@ -1,0 +1,26 @@
+/* External CSS */
+.grocery-section {
+    background-color: #eaeaea;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .section-header {
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+  }
+  
+  .sub-heading {
+    color: #555;
+  }
+  
+  .grocery-list {
+    list-style-type: disc;
+  }
+  
+  .photo {
+    padding: 10px;
+  }
+  
